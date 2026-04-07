@@ -24,10 +24,11 @@
 
 ```bash
 git clone https://github.com/0xProfr2/1recon.git
+
 cd 1recon
 
 sudo cp 1recon.py /usr/local/bin/1recon
-# أعطه صلاحية التنفيذ
+
 sudo chmod +x /usr/local/bin/1recon
 ```
 ## ## 🚀 Usage Guide
