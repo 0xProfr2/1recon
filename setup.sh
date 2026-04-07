@@ -13,6 +13,6 @@ else
 fi
 
 
-chmod +x 1Recon.py
+chmod +x 1recon.py
 
 echo "[+] Setup Complete! Use '.env' to add your API keys."
