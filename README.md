@@ -36,7 +36,7 @@ python3 1recon.py -d <target_domain> -o <output_file>
 ```
 
 ## 🛠️ Available Options
--d --domain The target domain to scan (e.g., https://www.google.com/search?q=google.com)Yes
--o --outputName of the final JSON report fileNoreport.json
--h --helpShow the help message and exit
+**-d --domain** The target domain to scan (e.g., example.com )
+**-o --outputName** of the final JSON report fileNoreport.json
+**-h --helpShow the** help message and exit
 
