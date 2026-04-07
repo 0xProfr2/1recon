@@ -1,4 +1,4 @@
-# 🚀 1Recon v1.0 - Advanced Multi-Threaded Recon Framework
+# 🚀 1Recon v1.0.0 - Advanced Multi-Threaded Recon Framework
 
 **1Recon** is an all-in-one automation tool designed for **Red Teamers** and **Bug Hunters**. It streamlines the reconnaissance phase by integrating industry-standard tools into a high-performance, multi-threaded pipeline.
 
@@ -36,7 +36,7 @@ python3 1recon.py -d <target_domain> -o <output_file>
 ```
 
 ## 🛠️ Available Options
-**-d --domain** The target domain to scan (e.g., example.com )
-**-o --outputName** of the final JSON report fileNoreport.json
-**-h --helpShow the** help message and exit
+- **-d --domain** The target domain to scan (e.g., example.com ).
+- **-o --outputName** of the final JSON report fileNoreport.json.
+- **-h --helpShow the** help message and exit.
 
