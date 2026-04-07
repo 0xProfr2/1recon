@@ -21,7 +21,7 @@ print("""
  ██║██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║
  ██║██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║
  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝
-         All Bug Bounty Recon Tools In One v1.0.0
+print(f"        All Bug Bounty Recon Tools In One {CURRENT_VERSION}")
                 By: FAres @0xProf
 """)
 
