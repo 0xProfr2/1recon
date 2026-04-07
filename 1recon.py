@@ -13,6 +13,7 @@ from datetime import datetime
 from traceback import print_tb
 from concurrent.futures import ThreadPoolExecutor
 from dotenv import load_dotenv
+from pathlib import Path
 
 
 print("""
@@ -98,6 +99,8 @@ class Tools:
 
 # ============ API KEYS ============
 load_dotenv()
+env_path = Path(__file__).parent.absolute() / ".env"
+load_dotenv(dotenv_path=env_path)
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
