@@ -23,7 +23,20 @@
 1. **Clone the Repo:**
 
 ```bash
-git clone [https://github.com/0xProfr2/1recon.git](https://github.com/0xProfr2/1recon.git)
+git clone https://github.com/0xProfr2/1recon.git
 cd 1recon
 chmod +x 1recon.py
 ```
+## ## 🚀 Usage Guide
+
+To start a full reconnaissance mission, use the following command:
+
+```bash
+python3 1recon.py -d <target_domain> -o <output_file>
+```
+
+## 🛠️ Available Options
+-d --domain The target domain to scan (e.g., https://www.google.com/search?q=google.com)Yes
+-o --outputName of the final JSON report fileNoreport.json
+-h --helpShow the help message and exit
+
