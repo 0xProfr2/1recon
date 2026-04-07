@@ -21,7 +21,7 @@ print("""
  ██║██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║
  ██║██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║
  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝
-print(f"        All Bug Bounty Recon Tools In One {CURRENT_VERSION}")
+     All Bug Bounty Recon Tools In One v1.0.0
                 By: FAres @0xProf
 """)
 
