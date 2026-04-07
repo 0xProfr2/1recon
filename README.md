@@ -25,14 +25,17 @@
 ```bash
 git clone https://github.com/0xProfr2/1recon.git
 cd 1recon
-chmod +x 1recon.py
+
+sudo cp 1recon.py /usr/local/bin/1recon
+# أعطه صلاحية التنفيذ
+sudo chmod +x /usr/local/bin/1recon
 ```
 ## ## 🚀 Usage Guide
 
 To start a full reconnaissance mission, use the following command:
 
 ```bash
-python3 1recon.py -d <target_domain> -o <output_file>
+1recon -d <target_domain> -o <output_file>
 ```
 
 ## 🛠️ Available Options
